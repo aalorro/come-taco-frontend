@@ -14,3 +14,7 @@ phases:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
+
+proxy:
+  upload-artifacts: yes
+  logs: yes
