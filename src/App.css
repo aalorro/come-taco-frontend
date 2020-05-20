@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box
+}
+.App {
+  text-align: center;
+  margin-left: 280px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  background-image: url("./Images/newBG.jpg");
+  background-color: #cccccc;
+}
+
+div.homePage  img {
+  max-width: 100%;
+  height: 70%;
+}
+
+div.Category {
+  border: 20px black;
+  padding: 45px;
+  font-style: oblique;
+  font-family: "Verdana";
+  font-size: 20px;
+}
+
+div#contactPage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -211px;
+  margin-left: -320px;
+  width: 640px;
+  height: 423px;
+  background-image: url("./Images/cutting-board.jpg")
+}
+
+
+#signupForm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -84px;
+  margin-left: -107px;
+}
+
+#loginDiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -102px;
+  margin-top: -70px;
+
+}
+
+div.userCart{
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  background-color: #BFB394;
+  text-align: center;
+  display: inline-block;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  flex-wrap: wrap;
+  left: 300px;
+}
+
+div#FoodContainer {
+  margin-left: 250px;
+  margin-right: 150px;
+  padding: 24px;
+  text-align: center;
+  display: inline-block;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  flex-wrap: wrap;
+  background-color: #BFB394;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div.totalBox {
+  background-color: white;
+  width: 30%;
+  height: 150px;
+  border: 4px solid black;
+  text-align: center;
+  display: inline-block;
+  position: static;
+  bottom: 0px;
+  left: 500px;
+}
+
+form#ccForm {
+  width: 500px;
+  min-height: 200px
+}
+
+div#creditFormBox {
+  background-color: #f6f9fc;
+  position: fixed;
+  border: 5px solid black;
+  height: 270px;
+  top: 50%;
+  bottom: 50%;
+  margin-top: -140px;
+  margin-left: 350px;
+}
+
+.ElementsApp, .InputElement {
+  background-color: white;
+}
+
+
