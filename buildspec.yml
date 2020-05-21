@@ -19,8 +19,8 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: come-taco-workflow
-  name : BuildArtif
+  base-directory: SourceArti
+  name : SourceArtifacts
   discard-paths: no
 
 
