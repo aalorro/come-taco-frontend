@@ -16,5 +16,11 @@ phases:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
+artifacts:
+  files:
+    - '**/*'
+  base-directory: come-taco-workflow
+  name : BuildArtif
+  discard-paths: no
 
 
