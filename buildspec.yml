@@ -19,8 +19,7 @@ phases:
 artifacts:
   files:
     - '**/*'
-  # base-directory: SourceArti
-  # name : SourceArtifacts
+  
   # discard-paths: no
 
 
