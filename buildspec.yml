@@ -7,7 +7,22 @@ phases:
     commands:
       - echo Entered the install phase...
       - apt-get update -y
-      - apt-get install -y maven
+      - apt-get install -y npm
+      - npm install react-dom
+      - npm install react
+      - npm install react-router-dom
+      - npm install react-router
+      - npm install react-scripts
+      - npm install react-stripe-elements
+      - npm install @material-ui/core
+      - npm install @material-ui/icons
+      - npm install @material-ui/styles
+      - npm install @material-ui/system
+      - npm install axios
+      - npm install material-design-icons
+      - npm install materialize-css
+      
+      # apt-get install -y maven
   build:
     commands:
       - echo Entered the build phase...
