@@ -19,7 +19,7 @@ phases:
 artifacts:
   files:
     - '**/*'
-    - appsec.yml
+    - appspec.yml
   
 
 
