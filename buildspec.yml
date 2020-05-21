@@ -8,7 +8,7 @@ phases:
       - echo Entered the install phase...
       - apt-get update -y
       - apt-get install -y npm
-      - npm install raect-dom
+      - npm install react-dom
       - npm install react
       - npm install react-router-dom
       - npm install react-router
