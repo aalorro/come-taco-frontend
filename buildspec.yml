@@ -9,6 +9,9 @@ phases:
       - apt-get update -y
       - apt-get install -y nodejs-dev node-gyp libssl1.0-dev
       - apt-get install -y npm
+      - apt-get install build-essential checkinstall libssl-dev
+      - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+      - nvm install 8.17.0
       - npm install react-dom
       - npm install react
       - npm install react-router-dom
@@ -23,7 +26,6 @@ phases:
       - npm install material-design-icons
       - npm install materialize-css
       
-      # apt-get install -y maven
   build:
     commands:
       - echo Entered the build phase...
@@ -32,6 +34,7 @@ phases:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
+      
 artifacts:
   files:
     - '**/*'
