@@ -1,3 +1,5 @@
+#!/usr/bin
+
 sudo apt update
 sudo apt -y install ruby
 cd /tmp
