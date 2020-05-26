@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo apt update
-sudo apt install apache2 -y
-sudo apt install ruby -y
+sudo apt-get update
+sudo apt-get install apache2 -y
+sudo apt=get install ruby -y
 sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
 sudo apt-get install gdebi-core -y
 cd /tmp
